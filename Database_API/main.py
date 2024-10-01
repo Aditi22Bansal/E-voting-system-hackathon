@@ -29,7 +29,7 @@ try:
     connection = mysql.connector.connect(
         host=os.getenv("localhost"),
         user=os.getenv("root"),
-        password=os.getenv("Aditi@2203"),
+        password=os.getenv(""),
         database=os.getenv("VOTING_SYSTEM_1"),
     )
     cursor = connection.cursor()
